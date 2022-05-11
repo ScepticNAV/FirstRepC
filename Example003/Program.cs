@@ -1,7 +1,11 @@
 ﻿// Сложение двух чисел
-int numA = 3;
+int numA = new Random().Next(1,20); //1,2,3...19
 
-int numB = 5;
+Console.WriteLine(numA);
+
+int numB = new Random().Next(1,20);
+
+Console.WriteLine(numB);
 
 int summ = numA + numB;
 
